@@ -129,8 +129,6 @@ vendor2.platform.com
 ## Project Structure
 
 ```
-.
-```
 📦 
 ├─ .gitignore
 ├─ README.md
