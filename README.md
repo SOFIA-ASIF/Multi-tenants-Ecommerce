@@ -131,8 +131,11 @@ vendor2.platform.com
 ```
 .
 ```
+
 📦 
 ├─ .gitignore
+├─ .vscode
+│  └─ settings.json
 ├─ README.md
 ├─ bun.lock
 ├─ components.json
@@ -148,10 +151,17 @@ vendor2.platform.com
 │  └─ window.svg
 ├─ src
 │  ├─ app
+│  │  ├─ (home)
+│  │  │  ├─ about
+│  │  │  │  └─ page.tsx
+│  │  │  ├─ footer.tsx
+│  │  │  ├─ layout.tsx
+│  │  │  ├─ navbar-sidebar.tsx
+│  │  │  ├─ navbar.tsx
+│  │  │  └─ page.tsx
 │  │  ├─ favicon.ico
 │  │  ├─ globals.css
-│  │  ├─ layout.tsx
-│  │  └─ page.tsx
+│  │  └─ layout.tsx
 │  ├─ components
 │  │  └─ ui
 │  │     ├─ accordion.tsx
@@ -215,8 +225,8 @@ vendor2.platform.com
 │  └─ lib
 │     └─ utils.ts
 └─ tsconfig.json
-
 ```
+
 
 ## Getting Started
 
